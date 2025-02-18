@@ -77,7 +77,7 @@ def add_item():
         entry_station.delete(0, tk.END)  # Clear station entry
         result_label.config(text="", foreground="black")  # Clear result message
     
-    #
+ 
         # reset  button inside popup window
     btn_cancel = tk.Button(add_window, text="Reset", command=clear_action)
     btn_cancel.grid(row=3, column=1, pady=10, padx=10)
