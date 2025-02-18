@@ -9,7 +9,7 @@ def login_action():
     if username == "" or password == "":
         result_label.config(text="Please enter both username and password.", foreground="red")
     elif username != 'mmt' or password != '123':
-        messagebox.showerror("Error")
+        messagebox.showerror("Error","Please enter correct user name and password!")
     else:
         messagebox.showinfo("Welcome")
         win.destroy()
