@@ -19,7 +19,7 @@ def cancel_action():
     username_entry.delete(0, tk.END)  # Clear username entry
     password_entry.delete(0, tk.END)  # Clear password entry
     result_label.config(text="", foreground="black")  # Clear result message
-    
+ #end of function   
 
 # Create the main window
 win = tk.Tk()
