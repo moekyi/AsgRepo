@@ -12,9 +12,9 @@ while start <= end and found == False:
         found = True
     else:
         if item < numberList [middle]:
-            end= middle -1
+            end= middle -1 # search to left
         else:
-            start = middle + 1
+            start = middle + 1 # search to right
     count = count + 1
 
 if found == True:
